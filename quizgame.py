@@ -12,7 +12,6 @@ def run_quiz(questions):
             print(f"❌ Wrong! The correct answer is {q['answer']}")
     print(f"\nYour final score: {score}/{len(questions)}")
 
-# Define quiz questions
 quiz_questions = [
     {
         "question": "What is the capital of France?",
@@ -35,8 +34,7 @@ quiz_questions = [
         "answer": "B"
     }
 ]
-
-# Start the quiz
 if __name__ == "__main__":
     print("🎉 Welcome to the Quiz Game!")
+
     run_quiz(quiz_questions)
